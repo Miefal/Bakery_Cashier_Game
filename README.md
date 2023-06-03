@@ -25,3 +25,35 @@ This is a simple cashier game where you play the role of a cashier at a bakery. 
 9. The program will display the items purchased by the customer.
 
 10. You can choose to serve another customer or exit the game.
+
+### How to Run
+
+To run the game, follow these steps:
+
+1. Compile the program using a C++ compiler. For example, you can use the following command:
+
+   ```
+   g++ bakery_game.cpp -o bakery_game
+   ```
+
+2. Run the compiled program:
+
+   ```
+   ./bakery_game
+   ```
+
+3. Follow the prompts and instructions displayed by the program to play the game.
+
+### Note
+
+- The program uses the `srand(time(0))` function to seed the random number generator. This ensures better randomness in the game.
+
+- The program includes a `map` to store the items and their prices in euros. You can add or modify items and prices as needed.
+
+- The program generates random variations in the customer's payment to add more diversity to the game.
+
+- The program asks the player to input the correct change in the same format as the amount paid (euros and cents).
+
+- The game loop allows you to serve multiple customers until you choose to exit.
+
+Enjoy playing the Bakery Cashier Game!
